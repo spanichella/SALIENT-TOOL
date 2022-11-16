@@ -3,6 +3,9 @@
 
 ## A tool for the automated identification of "Safety Concerns" reported in UAV Software Platforms
 
+## Requirements
+- Python 3.9
+- Poetry
 
 ## License
 ```{code-block} text
