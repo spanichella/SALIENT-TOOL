@@ -5,7 +5,9 @@
 
 ## Requirements
 - Python 3.9
-- [Poetry](https://python-poetry.org/)
+- Install [Poetry](https://python-poetry.org/) then
+  -  add it to your Home path (e.g., in Macos with "export PATH="$HOME/.local/bin:$PATH"")
+  -  check if all is fine from the command line, with  "poetry --version"
 
 ## License
 ```{code-block} text
