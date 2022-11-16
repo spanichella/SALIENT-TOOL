@@ -5,7 +5,7 @@
 
 ## Requirements
 - Python 3.9
-- Poetry
+- [Poetry](https://python-poetry.org/)
 
 ## License
 ```{code-block} text
