@@ -1,7 +1,7 @@
 # SALIENT-TOOL
 
 
-## A tool for the automated identification of Safety Concerns Reported in UAV Software Platforms
+## A tool for the automated identification of "Safety Concerns" reported in UAV Software Platforms
 
 
 ## License
