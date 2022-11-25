@@ -9,6 +9,7 @@
   -  add it to your Home path (e.g., in Macos with "export PATH="$HOME/.local/bin:$PATH"")
   	-  check if all is fine from the command line, with  "poetry --version"
   - in case of issue try " curl -sSL https://install.python-poetry.org | python3 - \ & export PATH="$HOME/.local/bin:$PATH"  & poetry --version "
+  - to update dependencies to poetry (assuming requirements.txt has been generated, e.g., by pypreqs): cat requirements.txt | xargs poetry add 
 
 ## License
 ```{code-block} text

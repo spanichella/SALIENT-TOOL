@@ -1,0 +1,18 @@
+AP_Arming: pre-arm check if compass1 is disabled but 2 or 3 are enabled #17047
+
+This PR adds a pre-arm check to reduce the chance of users accidentally disabling all compasses when they only intended to disable the first one. See issue #16509.
+
+The issue can happen (and has happened) because users assume that they can disable the first compass but keep on using the 2nd or 3rd compass if they set params like this:
+
+COMPASS_USE = 0
+COMPASS_USE2 = 1
+COMPASS_USE3 = 1
+Since the compass prioritisation changes however this results in the EKF not using any compasses which is unexpected and potentially dangerous.
+
+The potential downside of this change is that users who wish to disable use of the compass completely will need to set 3 parameters instead of just one.
+
+This has been lightly tested in SITL and seems to do what we need.
+
+This is on the Copter-4.1 blockers list. #16478
+
+P.S. this PR also includes a drive-by change to remove the unused "Compass::set_use_for_yaw()" method.
