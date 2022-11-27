@@ -5,11 +5,14 @@
 
 ## Requirements
 - Python 3.9
+- Docker
 - Install [Poetry](https://python-poetry.org/)  (https://realpython.com/dependency-management-python-poetry/) then
   -  add it to your Home path (e.g., in Macos with "```export PATH="$HOME/.local/bin:$PATH"```")
   	-  check if all is fine from the command line, with  "```poetry --version```"
   - in case of issue try " ```curl -sSL https://install.python-poetry.org | python3 - \ & export PATH="$HOME/.local/bin:$PATH"  & poetry --version``` "
-  - to update dependencies to poetry (assuming requirements.txt has been generated, e.g., by pypreqs): ```cat requirements.txt | xargs poetry add ``` (If you do have version numbers you could modify this with ```cat requirements.txt | xargs -I % sh -c 'poetry add "%"' ``` )
+  - to update (or add) dependencies to poetry (assuming requirements.txt has been generated, e.g., by pypreqs): ```cat requirements.txt | xargs poetry add ``` (If you do have version numbers you could modify this with ```cat requirements.txt | xargs -I % sh -c 'poetry add "%"' ``` )
+- Install [XQuartz](https://www.xquartz.org/), relevant to sun the SALIENT GUI in MacOsX, other version of the GUI are planned to support also Windows OS  (see [X11 for Windows and Mac](https://kb.thayer.dartmouth.edu/article/336-x11-for-windows-and-mac))
+
 
 ## License
 ```{code-block} text
