@@ -13,7 +13,7 @@
   - to update (or add) dependencies to poetry (assuming requirements.txt has been generated, e.g., by pypreqs): ```cat requirements.txt | xargs poetry add ``` (If you do have version numbers you could modify this with ```cat requirements.txt | xargs -I % sh -c 'poetry add "%"' ``` )
 - Install [XQuartz](https://www.xquartz.org/), relevant to sun the SALIENT GUI in MacOsX, other version of the GUI are planned to support also Windows OS  (see [X11 for Windows and Mac](https://kb.thayer.dartmouth.edu/article/336-x11-for-windows-and-mac))
 
-## How to SALIENT-TOOL GUI:
+## How to SALIENT-TOOL GUI & The SALIENT-TOOL command line Version:
 - 1) Clone this repository
 - 2) In case a container with the same name is already running and you want to remove it (stop container with):
   - ```docker container ls```
@@ -33,15 +33,17 @@
 - 7) Allow connections from Mac (or Linux) to XQuartz
   - ``` /opt/X11/bin/xhost + "$IP" ```
 
-- 8) To run the SALIENT GUI you need to run the following command on your (Mac on Linux machine) machine (non **interactive mode**):
+- 8) To run the SALIENT-TOOL GUI you need to run the following command on your (Mac on Linux machine) machine (non **interactive mode**):
   - ``` docker run -it -e DISPLAY="${IP}:0" -v /tmp/.X11-unix:/tmp/.X11-unix salient_tool ```
-  - the command above will give you access to the SALIENT GUI
-    - to run it in **"interative mode"**:
+- 9) In case you want to run SALIENT-TOOL in an interactive way (this gives you access to both the SALIENT-TOOL GUI and the command line tool version):
+    - to run the SALIENT-TOOL GUI in an **"interative mode"**:
       - execute ``` docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw salient_tool bash ```
-      - then execute the GUI within the container 
+      - then **execute the GUI** within the container 
         - ``` cd salient_src ```
         - ``` python salient_gui_tkinter.py ```
- 
+      - then **execute the command line** within the container 
+        - ``` cd salient_src ```
+        - ``` python Fasttext-Model-prediction-on-safety-unseen-data.py --infile config.json ``` 
 
 ## License
 ```{code-block} text
