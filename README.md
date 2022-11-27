@@ -13,6 +13,35 @@
   - to update (or add) dependencies to poetry (assuming requirements.txt has been generated, e.g., by pypreqs): ```cat requirements.txt | xargs poetry add ``` (If you do have version numbers you could modify this with ```cat requirements.txt | xargs -I % sh -c 'poetry add "%"' ``` )
 - Install [XQuartz](https://www.xquartz.org/), relevant to sun the SALIENT GUI in MacOsX, other version of the GUI are planned to support also Windows OS  (see [X11 for Windows and Mac](https://kb.thayer.dartmouth.edu/article/336-x11-for-windows-and-mac))
 
+## How to SALIENT-TOOL GUI:
+- 1) Clone this repository
+- 2) In case a container with the same name is already running and you want to remove it (stop container with):
+  - ```docker container ls```
+  - ```docker container stop $(docker container ls -aq)	```
+  - ```docker system prune```
+  - ```docker container ls```
+- 3) Build the image and name it:
+  - ``` sudo docker build -t salient_tool . ```
+- 4) Check that the image is among the available images with the docker images command:
+  - ``` sudo docker images ```
+- 5) Run XQuartz
+  - ``` open -a XQuartz ```
+
+- 6) Set your Mac (or Linux) IP address
+  - ``` IP=$(/usr/sbin/ipconfig getifaddr en0) ```
+
+- 7) Allow connections from Mac (or Linux) to XQuartz
+  - ``` /opt/X11/bin/xhost + "$IP" ```
+
+- 8) To run the SALIENT GUI you need to run the following command on your (Mac on Linux machine) machine (non **interactive mode**):
+  - ``` docker run -it -e DISPLAY="${IP}:0" -v /tmp/.X11-unix:/tmp/.X11-unix salient_tool ```
+  - the command above will give you access to the SALIENT GUI
+    - to run it in **"interative mode"**:
+      - execute ``` docker run --rm -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw salient_tool bash ```
+      - then execute the GUI within the container 
+        - ``` cd salient_src ```
+        - ``` python salient_gui_tkinter.py ```
+ 
 
 ## License
 ```{code-block} text
