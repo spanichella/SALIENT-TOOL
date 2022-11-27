@@ -61,15 +61,15 @@ if len(sys.argv) > 1:
 #usage xample -> x=stemSentence(sentence,stemmer)
 ####end functions
 
-#path_model = "/Users/spanichella/Desktop/Zurich-applied-Science/Projects/EU-PROJECTS/APPROVED/COSMOS/GITLAB--project-Repositories/WP6.1-dev/Safety-Bugs/Tf-idf-pipeline/R-solution/Resources/R-scripts-safety/TOOL-DEMO-2023/trained_model.bin"
+#path_model = ".../TOOL-DEMO-2023/trained_model.bin"
 path_model = data["path_model"]
-#path_text_issue = "/Users/spanichella/Desktop/Zurich-applied-Science/Projects/EU-PROJECTS/APPROVED/COSMOS/GITLAB--project-Repositories/WP6.1-dev/Safety-Bugs/Tf-idf-pipeline/R-solution/Resources/R-scripts-safety/TOOL-DEMO-2023/text_issue.txt"
+#path_text_issue = ".../TOOL-DEMO-2023/text_issue.txt"
 path_text_issue = data["path_text_issue"]
 
-#path_fasttext_predicted_labels_test_dataset = "/Users/spanichella/Desktop/Zurich-applied-Science/Projects/EU-PROJECTS/APPROVED/COSMOS/GITLAB--project-Repositories/WP6.1-dev/Safety-Bugs/Tf-idf-pipeline/R-solution/Resources/R-scripts-safety/TOOL-DEMO-2023/fasttext_predicted_labels_test_dataset.txt" 
+#path_fasttext_predicted_labels_test_dataset = ".../TOOL-DEMO-2023/fasttext_predicted_labels_test_dataset.txt" 
 path_fasttext_predicted_labels_test_dataset = data["path_fasttext_predicted_labels_test_dataset"]
 
-#path_test_set = "/Users/spanichella/Desktop/Zurich-applied-Science/Projects/EU-PROJECTS/APPROVED/COSMOS/GITLAB--project-Repositories/WP6.1-dev/Safety-Bugs/Tf-idf-pipeline/R-solution/Resources/R-scripts-safety/TOOL-DEMO-2023/test-set.csv"
+#path_test_set = ".../TOOL-DEMO-2023/test-set.csv"
 path_test_set = data["path_test_set"]
 
 #text_as_input = "AP_Arming: pre-arm check if compass1 is disabled but 2 or 3 are enabled. This PR adds a pre-arm check to reduce the chance of users accidentally disabling all compasses when they only intended to disable the first one."
