@@ -1,14 +1,18 @@
 [tool.poetry]
 name = "salient-src"
 version = "0.1.0"
-description = "SALIENT-TOOL"
+description = ""
 authors = ["Sebastiano Panichella <spanichella@gmail.com>"]
-license = "GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version."
+license = "GPL 3"
 readme = "README.md"
 packages = [{include = "salient_src"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.11"
+nltk = "3.7"
+pandas = "1.4.2"
+pysbd = "0.3.4"
+spacy = "3.4.2"
 
 
 [build-system]

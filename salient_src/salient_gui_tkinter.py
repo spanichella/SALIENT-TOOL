@@ -1,7 +1,9 @@
+
+# @author sebastiano panichella
+
 from tkinter import * #https://tkdocs.com/tutorial/text.html
 from tkinter import filedialog
 
-# @author sebastiano panichella
 from pathlib import Path
 import os
 import csv
@@ -17,6 +19,14 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 import nltk
 nltk.download('punkt')
 import re
+
+#python -m pip install -U matplotlib
+#import matplotlib
+
+if os.environ.get('DISPLAY','') == '':
+    print('no display found.')
+    #print('no display found. Using :0.0')
+    #os.environ.__setitem__('DISPLAY', ':0.0')
 
 def stemSentence(sentence, stemmer):
     token_words=word_tokenize(sentence)
@@ -202,7 +212,7 @@ ws = Tk()
 
 # SALIENT (SAfety-criticaL IssuE ideNTifier), which automatically identifies safety-related sentences in the titles and descriptions of UAV-reported issues.
 ws.title("SALIENT (SAfety-criticaL IssuE ideNTifier)")
-ws.geometry("870x670")
+ws.geometry("1250x750")
 ws['bg']='#2a636e'
 
 # adding frame
@@ -235,7 +245,7 @@ color_classified_elements = StringVar(ws)
 color_classified_elements.set("orange") # default value
 
 # the label for user_name
-coloring = Label(ws, text = "Select a color to highlight classified elements:",background='#2a636e', foreground="white").place(x = 100,y = 606) 
+coloring = Label(ws, text = "Select a color to highlight classified elements:",background='#2a636e', foreground="white").place(x = 250,y = 680) 
 
 w = OptionMenu(ws, color_classified_elements, "orange", "yellow","grey","cyan","magenta","red","blue", "green")
 #w.place(x = 150,y = 520) 
