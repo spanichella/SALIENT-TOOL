@@ -1,7 +1,7 @@
 {
-    "path_model": "/salient_src/trained_model.bin",
-	"path_test_set": "",
+    "path_model": "trained_model.bin",
+    "path_test_set": "",
     "path_text_issue": "",
     "text_as_input": "AP_Arming: pre-arm check if compass1 is disabled but 2 or 3 are enabled. This PR adds a pre-arm check to reduce the chance of users accidentally disabling all compasses when they only intended to disable the first one.",
-	"path_fasttext_predicted_labels_test_dataset": "/salient_src/fasttext_predicted_labels_test_dataset.txt"
+    "path_fasttext_predicted_labels_test_dataset": "fasttext_predicted_labels_test_dataset.txt"
 }
