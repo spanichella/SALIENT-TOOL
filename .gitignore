@@ -1,3 +1,6 @@
+salient_src/fasttext_predicted_labels_test_dataset.csv
+salient_src/fasttext_predicted_labels_test_dataset.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

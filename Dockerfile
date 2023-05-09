@@ -17,4 +17,5 @@ RUN pip install -r requirements.txt
 RUN pip install fasttext==0.9.1
 
 # Commands to run Tkinter application
-CMD ["python", "/src/salient_src/salient_gui_tkinter.py"]
+WORKDIR /src/salient_src/
+# CMD ["python", "/src/salient_src/salient_gui_tkinter.py"]
