@@ -20,7 +20,7 @@
 
 ```
 apt-get update
-sudo apt-get install tk
+sudo apt-get install tk # on macosx pip install tkmacosx
 ```
 
 3. Install the requirements usint poetry:
