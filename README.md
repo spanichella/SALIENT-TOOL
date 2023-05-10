@@ -98,6 +98,14 @@ pip install -r requirements.txt
 
 ```python Fasttext-Model-prediction-on-safety-unseen-data.py --infile config.json```
 
+ (Optional) In case a container with the same name is already running and you want to remove it (i.e., stop container): 
+```shell script
+docker container ls
+docker container stop $(docker container ls -aq)	
+docker system prune
+docker container ls
+```
+
 ## Command Line Interface (CLI)
 
 SALIENT provides the following interfaces:
