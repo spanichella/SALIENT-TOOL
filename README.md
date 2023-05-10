@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 2. Build and tag the docker image:
 
-`docker build . -t salient_tool`
+`docker build . -t salient_tool` # in macosx can require "sudo": docker build . -t salient_tool
 
 <!-- 4) Check that the image is among the available images with the docker images command:
 
