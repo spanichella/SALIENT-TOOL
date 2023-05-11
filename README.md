@@ -7,12 +7,13 @@ SALIENT is a machine learning (ML)-enabled tool which analyzes individual senten
 - [Architecture Overview](#Architecture-Overview)
 - [HOW TO USE SALIENT](#HOW-TO-USE-SALIENT)
 - [Setup](#Setup)
-  - [Local Development Environment (With GUI)](#Local-Development-Environment)
+  - [Local Development Environment with GUI](#Local-Development-Environment-with-GUI)
   - [Using Docker](#Using-Docker)
-- [Command Line Interface (CLI)](#CLI)
-- [Graphical User Interface (GUI)](#GUI)
+- [Command Line Interface](#Command-Line-Interface)
+- [Graphical User Interface](#Graphical-User-Interface)
 - [License](#License)
-- [References](#References) 
+- [References](#References)
+- [Contacts](#Contacts) 
 
 ## Architecture Overview
 
