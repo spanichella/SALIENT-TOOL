@@ -1,4 +1,4 @@
-# SALIENT: Automated Identification of "Safety Concerns" Reported in UAV Software Platforms
+# Identifying Safety-Critical Concerns in Unmanned Aerial Vehicle Software Platforms with SALIENT
 
 [describe the tool here]
 [add the video here]
