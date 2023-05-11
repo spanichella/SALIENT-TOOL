@@ -189,7 +189,7 @@ If you use this tool in your research, please cite the following paper(s):
 ## Contacts
 
 - **Dr. Sebastiano Panichella**
-  - Zurich University of Applied Sciences (ZHAW), Switzerland - <panc@zhaw.ch> and <spaichella@gmail.com>
+  - Zurich University of Applied Sciences (ZHAW), Switzerland - <panc@zhaw.ch> and <spanichella@gmail.com>
 - Sajad Khatiri
   - Zurich University of Applied Sciences (ZHAW), Switzerland - <mazr@zhaw.ch>
 - Dr. Andrea Di Sorbo:
