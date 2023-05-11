@@ -2,6 +2,8 @@
 
 SALIENT is a machine learning (ML)-enabled tool which analyzes individual sentences composing the issue reports of UAVs and automatically recognizes those describing a safety-related concern. The assessment of the classification performance of the tool on the issues of three popular open-source UAV-related projects demonstrates that SALIENT represents a viable solution to assist developers in timely identifying and triaging safety-critical UAV issues.
 
+[add architecture here]
+
 [add the video here]
 
 ## Setup
