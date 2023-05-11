@@ -1,6 +1,7 @@
-# Identifying Safety-Critical Concerns in Unmanned Aerial Vehicle Software Platforms with SALIENT
+# Identifying Safety-Critical Concerns in Unmanned Aerial Vehicle (UAV) Software Platforms with SALIENT
 
-[describe the tool here]
+SALIENT is a machine learning (ML)-enabled tool which analyzes individual sentences composing the issue reports of UAVs and automatically recognizes those describing a safety-related concern. The assessment of the classification performance of the tool on the issues of three popular open-source UAV-related projects demonstrates that SALIENT represents a viable solution to assist developers in timely identifying and triaging safety-critical UAV issues.
+
 [add the video here]
 
 ## Setup
