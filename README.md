@@ -129,7 +129,7 @@ docker system prune
 docker container ls
 ```
 
-## Command Line Interface (CLI)
+## Command Line Interface
 
 SALIENT provides the following interfaces:
 
@@ -139,7 +139,7 @@ SALIENT provides the following interfaces:
 
 <!-- 2. [any remainig interfaces?] -->
 
-## Graphical User Interface (GUI)
+## Graphical User Interface
 
 Users can access the GUI with the following command:`python salient_gui_tkinter.py`
 ![SALIENT GUI](./gui.png)
