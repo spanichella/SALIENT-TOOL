@@ -178,11 +178,16 @@ If you use this tool in your research, please cite the following paper(s):
 
 ```{code-block} bibtex
 @article{UAV:2022,
-  title={Automated Identification and Qualitative Characterization of Safety Concerns Reported in UAV Software Platforms},
-  author={Andrea Di Sorbo and Fiorella Zampetti and  Corrado A. Visaggio  and Massimiliano Di Penta and Sebastiano Panichella},
-  journal={Transactions on Software Engineering and Methodology},
-  year={2022},
-  publisher={Elsevier}
+   author = {Di Sorbo, Andrea and Zampetti, Fiorella and Visaggio, Aaron and Di Penta, Massimiliano and Panichella, Sebastiano},
+   title = {Automated Identification and Qualitative Characterization of Safety Concerns Reported in UAV Software Platforms},
+   year = {2023},
+   publisher = {Association for Computing Machinery},
+   volume = {32},
+   number = {3},
+   doi = {10.1145/3564821},
+   journal = {ACM Trans. Softw. Eng. Methodol.},
+   articleno = {67},
+   numpages = {37}
 }
 ```
 
