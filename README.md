@@ -142,7 +142,7 @@ SALIENT provides the following interfaces:
 ## Graphical User Interface
 
 Users can access the GUI with the following command:`python salient_gui_tkinter.py`
-![SALIENT GUI](./gui.png)
+![SALIENT GUI](./gui-salient.png)
 [could be usefull to update the picture with marker (1,2,3,etc. on different parts to be explained)]
 
 [describe the GUI here, what are different buttons and fileds for, and how it works]
