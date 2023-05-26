@@ -152,7 +152,7 @@ Sentence,Predicted_Label,Probability_of_Predicted_Label
 
 Users can access the GUI with the following command:`python salient_gui_tkinter.py`
 
-![SALIENT GUI](./gui-salient.png)
+![SALIENT GUI](./gui-salient2.png)
 
 As described before, to activate the GUI, it is sufficient to run `python salient_gui_tkinter.py`
 The GUI is designed for general users (not necessarily developers) to allow developers/users to select issues as well as write and edit issues.
