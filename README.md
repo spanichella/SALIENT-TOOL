@@ -142,10 +142,23 @@ SALIENT provides the following interfaces:
 ## Graphical User Interface
 
 Users can access the GUI with the following command:`python salient_gui_tkinter.py`
+
 ![SALIENT GUI](./gui-salient.png)
+
+As described before, to activate the GUI, it is sufficient to run `python salient_gui_tkinter.py`
+The GUI is designed for general users (not necessarily developers) to allow developers/users to select issues as well as write and edit issues.
+As demonstrated in the video (before in this repository), the SALIENT’s GUI allows to upload a text file (or CSV file) containing the text of the UAV issue, or the users/developers can directly copy and paste the text of the issue in the GUI’s form (see image before). 
+
+With the GUI it is possible to classify text of issues concerning safety aspects automatically, with relevant sentences highlighted in the specified color (default it is orange color). The GUI also allows storing the results locally. As described in previous paragraphs, SALIENT provides different options to output the results with its GUI and its CLI. It is important to note that given as input issue data, the output of SALIENT corresponds to a structured file (in CSV format) containing the sentence ID, the text of the sentence classified, the label assigned to the sentence ("Yes" or "No", depending on the fact that the sentence concerns safety aspects), and the probability that the predicted label is actually correct: 
+```
+Sentence,Predicted_Label,Probability_of_Predicted_Label
+0,AP_Arming: pre-arm check if compass1 is disabled but 2 or 3 are enabled.,"('__label__YES',)",0.670190691947937
+...
+```
+
 [could be usefull to update the picture with marker (1,2,3,etc. on different parts to be explained)]
 
-[describe the GUI here, what are different buttons and fileds for, and how it works]
+[describe the GUI here, what are different buttons and fields for, and how it works]
 
 ## License
 
