@@ -135,7 +135,7 @@ SALIENT can be used as a Python command-line utility, which needs proper setup a
 
 1. ```python Fasttext-Model-prediction-on-safety-unseen-data.py --infile config.json```
 
-As demonstrated in the video and details in our repository, SALIENT’s config.json file contains different arguments as summarized in Table II (see figure below), which allows specifying the required inputs (i.e., the issue data), with the command above, to proceed with the analysis/classification of issues data and store the results in the specified file (with the file config.json). It is important to note that, if multiple Input types (see Table II) are provided as input with the config.json file, all of them are analyzed/classified and stored in the specified output file.
+As demonstrated in the video and detailed in our repository, SALIENT’s config.json file contains different arguments as summarized in Table II (see figure below), which allows specifying the required inputs (i.e., the issue data), with the command above, to proceed with the analysis/classification of issues data and store the results in the specified file (with the file config.json). It is important to note that, if multiple Input types (see Table II) are provided as input with the config.json file, all of them are analyzed/classified and stored in the specified output file.
 
 ![SALIENT arguments and expected "Input types"](./TableTwo.png)
 
