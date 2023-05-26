@@ -158,10 +158,6 @@ Sentence,Predicted_Label,Probability_of_Predicted_Label
 ...
 ```
 
-[could be usefull to update the picture with marker (1,2,3,etc. on different parts to be explained)]
-
-[describe the GUI here, what are different buttons and fields for, and how it works]
-
 ## License
 
 ```{code-block} text
