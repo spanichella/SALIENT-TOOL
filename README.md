@@ -139,6 +139,13 @@ As demonstrated in the video and details in our repository, SALIENT’s config.j
 
 ![SALIENT arguments and expected "Input types"](./TableTwo.png)
 
+The CLI also allows storing the results locally. SALIENT provides different options to output the results with its GUI and its CLI. It is important to note that given as input issue data, the output of SALIENT corresponds to a structured file (in CSV format) containing the sentence ID, the text of the sentence classified, the label assigned to the sentence ("Yes" or "No", depending on the fact that the sentence concerns safety aspects), and the probability that the predicted label is actually correct: 
+```
+Sentence,Predicted_Label,Probability_of_Predicted_Label
+0,AP_Arming: pre-arm check if compass1 is disabled but 2 or 3 are enabled.,"('__label__YES',)",0.670190691947937
+...
+```
+
 <!-- 2. [any remainig interfaces?] -->
 
 ## Graphical User Interface
