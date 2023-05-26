@@ -206,6 +206,22 @@ If you use this tool in your research, please cite the following paper(s):
    numpages = {37}
 }
 ```
+- F. Zampetti, R. Kapur, M. Di Penta, and S. Panichella, “An empirical characterization of software bugs in open-source cyber–physical
+systems,” Journal of Systems and Software, vol. 192, p. 111425, 2022.
+
+```{code-block} bibtex
+@article{ZAMPETTI2022111425,
+  title = {An empirical characterization of software bugs in open-source Cyber–Physical Systems},
+  journal = {Journal of Systems and Software},
+  volume = {192},
+  pages = {111425},
+  year = {2022},
+  issn = {0164-1212},
+  doi = {https://doi.org/10.1016/j.jss.2022.111425},
+  url = {https://www.sciencedirect.com/science/article/pii/S0164121222001315},
+  author = {Fiorella Zampetti and Ritu Kapur and Massimiliano {Di Penta} and Sebastiano Panichella}
+}
+```
 
 ## Contacts
 
