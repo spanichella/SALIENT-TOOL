@@ -146,8 +146,6 @@ Sentence,Predicted_Label,Probability_of_Predicted_Label
 ...
 ```
 
-<!-- 2. [any remainig interfaces?] -->
-
 ## Graphical User Interface
 
 Users can access the GUI with the following command:`python salient_gui_tkinter.py`
@@ -156,9 +154,9 @@ Users can access the GUI with the following command:`python salient_gui_tkinter.
 
 As described before, to activate the GUI, it is sufficient to run `python salient_gui_tkinter.py`
 The GUI is designed for general users (not necessarily developers) to allow developers/users to select issues as well as write and edit issues.
-As demonstrated in the video (before in this repository), the SALIENT’s GUI allows to upload a text file (or CSV file) containing the text of the UAV issue, or the users/developers can directly copy and paste the text of the issue in the GUI’s form (see image before). 
+As demonstrated in the video (before in this repository), the SALIENT’s GUI allows to upload a text file (or CSV file) containing the text of the UAV issue (point 1in the figure), or the users/developers can directly copy and paste the text of the issue (point 2) in the GUI’s form (see image before). 
 
-With the GUI it is possible to classify text of issues concerning safety aspects automatically, with relevant sentences highlighted in the specified color (default it is orange color). The GUI also allows storing the results locally. As described in previous paragraphs, SALIENT provides different options to output the results with its GUI and its CLI. It is important to note that given as input issue data, the output of SALIENT corresponds to a structured file (in CSV format) containing the sentence ID, the text of the sentence classified, the label assigned to the sentence ("Yes" or "No", depending on the fact that the sentence concerns safety aspects), and the probability that the predicted label is actually correct: 
+With the GUI it is possible to classify text of issues concerning safety aspects automatically (point 3), with relevant sentences highlighted in the specified color (default it is orange color). The GUI also allows storing the results locally. As described in previous paragraphs, SALIENT provides different options to output the results with its GUI (point 4) and its CLI (see previous paragraphs). It is important to note that given as input issue data, the output of SALIENT corresponds to a structured file (in CSV format) containing the sentence ID, the text of the sentence classified, the label assigned to the sentence ("Yes" or "No", depending on the fact that the sentence concerns safety aspects), and the probability that the predicted label is actually correct: 
 ```
 Sentence,Predicted_Label,Probability_of_Predicted_Label
 0,AP_Arming: pre-arm check if compass1 is disabled but 2 or 3 are enabled.,"('__label__YES',)",0.670190691947937
