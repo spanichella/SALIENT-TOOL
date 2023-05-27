@@ -24,8 +24,8 @@ The GUI is designed for general users (not necessarily developers), while the CL
 ## HOW TO USE SALIENT 
 Demonstration Video:
 
-[![SALIENT Demonstration](./SALIENT-preview.png)](https://youtu.be/)
-- [Youtube link](https://youtu.be/)
+[![SALIENT Demonstration](./SALIENT-preview.png)](https://youtu.be/9QofMn2KD5g)
+- [Youtube link](https://youtu.be/9QofMn2KD5g)
 
 ## Setup
 
