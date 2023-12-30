@@ -190,7 +190,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 
 The software we developed is distributed under GNU GPL license. See the
-[LICENSE.md](https://github.com/spanichella/SALIENT-TOOL/LICENSE.md) file.
+[LICENSE](https://github.com/spanichella/SALIENT-TOOL/LICENSE) file.
 
 ## References
 
